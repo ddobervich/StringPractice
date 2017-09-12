@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 
 public class Main {
-	private static final String FILE_PATH = "mobydick.txt";
+	private static final String FILE_PATH = "words.txt";
 
 	public static void main(String[] args) {
 		// Get the file as a String
@@ -37,6 +37,10 @@ public class Main {
 
 		// Problem 4
 		// ... etc ...
+	}
+
+	private static String findLongestWordWithoutE(String[] words) {
+		return null;
 	}
 
 	private static String getFileAsString(String filename) {
